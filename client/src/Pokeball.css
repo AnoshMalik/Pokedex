@@ -1,0 +1,16 @@
+.animatePokeball {
+    width: 100px;
+    height: 100px;
+  display: inline-block;
+  animation: spin 2s infinite linear; /* Adjust duration and other properties as needed */
+}
+
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
